@@ -12,8 +12,8 @@ def json_request_error(e):
 # success, error에 함수를 등록해주면 그 함수를 실행시키겠다는 의미.
 # js에서 ajax의 success, error와 유사
 def json_request(url = '',  encoding = 'utf-8',
-                 success = None,
-                 error = json_request_error):
+                success = None,
+                error = json_request_error):
     try:
         req = Request(url)     # request 객체 생성
         res = urlopen(req)     # URL에 연결하여 response 객체 반환
@@ -32,12 +32,12 @@ def json_request(url = '',  encoding = 'utf-8',
 
 
 BASE_URL_FB_API = 'https://graph.facebook.com/v11.0'
-ACCESS_TOKEN = 'EAAHibwRRH9cBAClO2ykEQtmO5ZCVP0obkstfXyobgZAekoxTkwM0XUnIedCn3qt7OZCE1zJvOkZASZC6Qwn3FDehlsKSKK15ZAtbTrYvtI4HFVsmXBzRPHhvpY4Cbyl9nlHKHTBC6w7Vc1ZCHlTxFyQ2vGpA2uaAmtVRmv40fPKGaM20jK2KEoNYvWCyhMalC6PU9bvDkyRyaq17zkh8IdpPcCEAaUvskhyCRTroZBuWr0CUAykwxMJN'
+ACCESS_TOKEN = 'EAAHMRHmjFd4BAJwqBV8xfmiTkuB8SOSFMpR2LxhyhAKNXvNDoQZCViJq7HYaTv5wCOZB0ERnK26k2Eg6IZAcX7DHmFRU3ZBousvN54oDs30hyJl4b7kXlzUFXMlXZB1mJU2XuDeabBZCxW7psO2hQ3Kqhg85ogOHP4zIuFpOuwsNf0eVNdrZCRIGvCYx3kxZAtSZCvZA6aZCwqZC94T502ZAQ2wsa'
 
 
 # 여러 파라미터에 대하여, url을 생성
 def fb_generate_url(base = BASE_URL_FB_API, node = '', **param):
-    return '%s/%s/?%s' % (base, node, urlencode(param))
+    return '%s/%s?%s' % (base, node, urlencode(param))
 
 
 # API를 사용할 때 'JTBC 뉴스' 라는 페이지 이름이 아닌, 페이지의 id가 필요하다.
@@ -55,19 +55,21 @@ def fb_name_to_id(pagename):
 def fb_fetch_post(pagename, since, until):
     # URL 생성 시, 여러 파라미터를 전달
     url = fb_generate_url(
-        node = fb_name_to_id( pagename ) + '/posts',
-        fields = 'id, message, link, name, type, shares, created_time,\
-                  reactions.limit(0).summary(true),\
-                  comments.limit(0).summary(true)',
-        since = since,  # 시작 날짜
-         until = until,  # 끝 날짜
-         limit = 30,     # 개수
-         access_token = ACCESS_TOKEN
+        # node = fb_name_to_id( pagename ) + '/posts',
+        node = 'me',
+        # fields = 'id, message, link, name, type, shares, created_time,\
+        #         reactions.limit(0).summary(true),\
+        #         comments.limit(0).summary(true)',
+        fields = 'id, name',
+        # since = since,  # 시작 날짜
+        # until = until,  # 끝 날짜
+        # limit = 30,     # 개수
+        access_token = ACCESS_TOKEN
     )
     # print(url)
 
     json_result = json_request(url)
     return json_result
 
-posts = fb_fetch_post('jtbcnews', '2021-07-01', '2021-07-19')
+posts = fb_fetch_post('me', '2021-06-01', '2021-06-30')
 print(posts)
