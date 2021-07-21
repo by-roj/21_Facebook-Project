@@ -7,7 +7,7 @@ plt.rc('font', family=fontName)
 
 news_data = {'코로나':100, '올림픽':20, '폭염':56, '비트코인':76, '주식':54, '방역':94, '거리두기':73, 'MZ세대':82, '전세':68, '집값':47 }
 
-fig = plt.figure(figsize=(8,8)) # 캔버스 생성
+fig = plt.figure(figsize=(5,5)) # 캔버스 생성
 fig.set_facecolor('white') # 캔버스 배경색을 하얀색으로 설정
 ax = fig.add_subplot() # 프레임 생성
 
