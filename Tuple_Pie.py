@@ -5,10 +5,10 @@ fontLocation = r"C:\Windows\Fonts\malgun.ttf"
 fontName = font_manager.FontProperties(fname=fontLocation).get_name()
 plt.rc('font', family=fontName)
 
-# news_labels = ['코로나', '올림픽', '폭염', '비트코인', '주식', '방역', '거리두기', 'MZ세대', '전세', '집값']
-# news_frequency = [100, 20, 56, 76, 54, 94, 73, 82, 68, 47]
+# news_labels = ('코로나', '올림픽', '폭염', '비트코인', '주식', '방역', '거리두기', 'MZ세대', '전세', '집값')
+# news_frequency = (100, 20, 56, 76, 54, 94, 73, 82, 68, 47)
 
-news_data = [('코로나',100), ('올림픽',20), ('폭염',56), ('비트코인',76), ('주식',54), ('방역',94), ('거리두기',73), ('MZ세대',82), ('전세',68), ('집값',47 )]
+news_data = (('코로나',100), ('올림픽',20), ('폭염',56), ('비트코인',76), ('주식',54), ('방역',94), ('거리두기',73), ('MZ세대',82), ('전세',68), ('집값',47 ))
 
 fig = plt.figure(figsize=(8,8)) # 캔버스 생성
 fig.set_facecolor('white') # 캔버스 배경색을 하얀색으로 설정
@@ -28,5 +28,4 @@ pie = ax.pie(frequency,
             wedgeprops=dict(width=1))
 
 plt.legend(pie[0], labels)
-
 plt.show()
