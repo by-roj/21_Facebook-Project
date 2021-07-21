@@ -23,6 +23,14 @@ ax = fig.add_subplot() ## 프레임 생성
 # labels = list(news_data.keys())
 # values = list(news_data.values())
 
+# 3) value 기준 정렬 → List로 변환됨
+# news_data = sorted(news_data.items(), key=(lambda x:x[1]))
+# labels = []
+# frequency = []
+# for x, y in news_data:
+#     labels.append(x)
+#     frequency.append(y)
+
 pie = ax.pie(news_data.values(),
             startangle=90,
             counterclock=False,
