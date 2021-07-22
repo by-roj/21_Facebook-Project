@@ -71,4 +71,5 @@ plt.legend(pie[0], [i[0] for i in news_data],
         title="Keyword",
         loc="center left",
         bbox_to_anchor=(1, 0, 0.5, 1))
+plt.text(0, -1.3, '%s ~ %s' % (before_time.strftime("%Y-%m-%d %H:%M:%S"), now.strftime("%Y-%m-%d %H:%M:%S")), verticalalignment='bottom' , horizontalalignment='center', fontsize=8)
 plt.show()
