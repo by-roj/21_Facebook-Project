@@ -20,7 +20,7 @@ by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
   - naverdata.py
     - 코로나_naver_news.json
     - 올림픽_naver_news.json
-    - _naver_news.json
+    - 폭염_naver_news.json
   - makeJson.py
 2. Chart 생성
 
