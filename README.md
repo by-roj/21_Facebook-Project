@@ -24,6 +24,11 @@ by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
   - makeJson.py
     - news_data.json
 2. Chart 생성
+  - Bar Chart
+  - Line Chart
+    - makeChart_Line.py
+  - Pie Chart
+    - makeChart_Pie.py
 
 ### Part 3. Facebook API 데이터 수집 및 차트 생성
 
