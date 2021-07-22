@@ -18,9 +18,9 @@ by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
 ### Part 2. Naver API News 데이터 수집 및 차트 생성
 1. Naver API News 데이터 수집
   - naverdata.py
-    - corona_naver_news.json
-    - olympic_naver_news.json
-    - hot_naver_news.json
+    - 코로나_naver_news.json
+    - 올림픽_naver_news.json
+    - 폭염_naver_news.json
   - makeJson.py
 2. Chart 생성
 
