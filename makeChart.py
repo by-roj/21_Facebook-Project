@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+import numpy as np
+
+def makePrint(p, data):
+    absolute = int(round(p/100.*np.sum(data)))
+    return "{:.2f}%\n({:d})".format(p, absolute)
 
 with open("C:/Users/user/LYH/ModuleProject1/FacebookProject/data/news_data.json", "r", encoding='utf-8') as filedata:
     newsdata = json.loads(filedata.read())
@@ -43,7 +48,7 @@ fontLocation = r"C:\Windows\Fonts\malgun.ttf"
 fontName = font_manager.FontProperties(fname=fontLocation).get_name()
 plt.rc('font', family=fontName)
 
-fig = plt.figure(figsize=(5,5)) # 캔버스 생성
+fig = plt.figure(figsize=(8,5)) # 캔버스 생성
 fig.set_facecolor('white') # 캔버스 배경색을 하얀색으로 설정
 ax = fig.add_subplot() # 프레임 생성
 
@@ -56,9 +61,14 @@ ax = fig.add_subplot() # 프레임 생성
 pie = ax.pie([i[1] for i in news_data],
             startangle=90,
             counterclock=False,
-            autopct=lambda p : '{:.2f}%'.format(p),
+            autopct=lambda p: makePrint(p, [i[1] for i in news_data]),
             wedgeprops=dict(width=1),
             colors=['cornflowerblue', 'yellowgreen', 'salmon'])
 
-plt.legend(pie[0], [i[0] for i in news_data])
+ax.set_title("Keyword Count Pie Chart")
+
+plt.legend(pie[0], [i[0] for i in news_data],
+        title="Keyword",
+        loc="center left",
+        bbox_to_anchor=(1, 0, 0.5, 1))
 plt.show()
