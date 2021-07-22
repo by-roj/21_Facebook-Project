@@ -73,4 +73,8 @@ def fb_fetch_post(pagename, since, until):
     return json_result
 
 posts = fb_fetch_post('me', '2021-06-01', '2021-06-30')
+<<<<<<< HEAD
 print(posts)
+=======
+print(posts)
+>>>>>>> b46b6e7f51e1a709e753e34bc5c325a6c6503c6a
