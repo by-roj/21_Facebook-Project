@@ -1,3 +1,10 @@
+'''
+모 듈 명 : data_processing.py
+작 성 자 : 이용하, 박준용, 윤상우 
+작 성 일 : 2021.07.23
+정    의 : 네이버 검색 API를 통해 10개의 키워드를 입력 후 키워드가 포함된 1000개(각 키워드 별로 100개)의 뉴스 데이터를 파일 저장   
+'''
+
 import urllib.request
 import datetime
 import json
