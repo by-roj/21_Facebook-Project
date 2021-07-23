@@ -1,34 +1,60 @@
-## FacebookProject
-by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
+## 📜 FacebookProject
+- by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
 
-### Part 1. Chart 연습
-1. Bar Chart
-  - Dictionary_Bar.py
-  - List_Bar.py
-  - Tuple_Bar.py
-2. Line Chart
-  - Dictionary_Line.py
-  - List_Line.py
-  - Tuple_Line.py
-3. Pie Chart
-  - Dictionary_Pie.py
-  - List_Pie.py
-  - Tuple_Pie.py
+### *Part 1. Chart Practice*
 
-### Part 2. Naver API News 데이터 수집 및 차트 생성
-1. Naver API News 데이터 수집
-  - naverdata.py
-    - 코로나_naver_news.json
-    - 올림픽_naver_news.json
-    - 폭염_naver_news.json
-  - makeJson.py
-    - news_data.json
-2. Chart 생성
-  - Bar Chart
-  - Line Chart
-    - makeChart_Line.py
-  - Pie Chart
-    - makeChart_Pie.py
+> 다양한 자료형(Dictionary, List, Tuple)를 이용하여 다양한 Chart 생성해보기
 
-### Part 3. Facebook API 데이터 수집 및 차트 생성
+[GitHub Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/Chart_Practice)
 
+- Bar Chart : by 박준용
+- 
+- Line Chart : by 윤상우
+- 
+- Pie Chart : by 이용하
+
+##  
+
+### *Part 2. Naver API News 데이터 수집 및 Chart 생성*
+
+> Naver API를 이용해 수집한 News 데이터로 Chart 생성
+
+[Github Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/NaverAPI_Chart)
+
+- News 데이터의 title, description에서 keyword의 노출 빈도 count
+
+- keyword의 count를 이용해 다양한 Chart 생성
+
+##  
+
+### *Part 3. Facebook API*
+
+> Facebook API를 이용해 정보 Crawling
+
+[Github Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/Facebook)
+
+- parameter 'me'에 대해 'id', 'name' field 값을 불러옴
+
+##  
+
+### *Part 4. 2021-07-23 Keyword Count 최종 코드*
+
+> Naver API를 이용해 수집한 News 데이터에서 keyword의 노출 빈도 count
+
+[Github Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/FinalCode)
+
+- 현재 날짜 기준 1일, 1주, 1달, 1년 내에 keyword의 노출 빈도 count
+
+##  
+
+### *Part 5. 회의록*
+
+> 2021.07.19 ~ 2021.07.23 동안 진행된 모듈 프로젝트 1의 회의록
+
+[Github Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/%ED%9A%8C%EC%9D%98%EB%A1%9D)
+
+MLB 선수들의 스탯 데이터를 기반으로 적정 FA 금액을 예측하는 프로젝트
+
+
+
+#### 감사합니다 👍
