@@ -1,5 +1,6 @@
 ## 📜 FacebookProject
 - by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
+<
 
 ### *Part 1. Chart Practice*
 
@@ -8,9 +9,9 @@
 [GitHub Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/Chart_Practice)
 
 - Bar Chart : by 박준용
-- 
+
 - Line Chart : by 윤상우
-- 
+
 - Pie Chart : by 이용하
 
 ##  
