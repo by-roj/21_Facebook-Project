@@ -15,7 +15,6 @@
 - Line Chart : by 윤상우
 
 - Pie Chart : by 이용하
-
 <br>
 
 ##       
@@ -30,7 +29,6 @@
 - News 데이터의 title, description에서 keyword의 노출 빈도 count
 
 - keyword의 count를 이용해 다양한 Chart 생성
-
 <br>
 
 ##       
@@ -44,7 +42,6 @@
 [Github Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/Facebook)
 
 - parameter 'me'에 대해 'id', 'name' field 값을 불러옴
-
 <br>
 
 ##       
@@ -58,7 +55,6 @@
 [Github Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/FinalCode)
 
 - 현재 날짜 기준 1일, 1주, 1달, 1년 내에 keyword의 노출 빈도 count
-
 <br>
 
 ##       
