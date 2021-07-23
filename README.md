@@ -1,6 +1,7 @@
 ## 📜 FacebookProject
 - by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
-<
+<br>
+<br>
 
 ### *Part 1. Chart Practice*
 
@@ -54,8 +55,7 @@
 
 [Github Link](https://github.com/Lee-YongHa/FacebookProject/tree/main/%ED%9A%8C%EC%9D%98%EB%A1%9D)
 
-MLB 선수들의 스탯 데이터를 기반으로 적정 FA 금액을 예측하는 프로젝트
-
-
-
+<br>
+<br>
+<br>
 #### 감사합니다 👍
