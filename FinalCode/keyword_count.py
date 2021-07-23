@@ -35,3 +35,10 @@ for i in sorted_arr:
         continue
         
 print("keyword : %s\nday : %d, week : %d, month : %d, year : %d" %(keyword, result['day'], result['week'], result['month'], result['year']))
+
+'''
+모 듈 명 : keyword_count.py
+작 성 자 : 이용하, 박준용, 윤상우 
+작 성 일 : 2021.07.23
+정    의 : 뉴스 데이터를 가져와 날짜 구간, 키워드를 입력 후 키워드 수 카운트 
+'''
