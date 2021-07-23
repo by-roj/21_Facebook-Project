@@ -1,10 +1,10 @@
-## 📜 FacebookProject
+## 📜 FacebookProject - Module Project 1
 - by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
 
 <br>
 <br>
 
-### *Part 1. Chart Practice*
+### 📝*Part 1. Chart Practice*
 
 > 다양한 자료형(Dictionary, List, Tuple)를 이용하여 다양한 Chart 생성해보기
 
@@ -20,7 +20,7 @@
 
 <br>
 
-### *Part 2. Naver API News 데이터 수집 및 Chart 생성*
+### 📝*Part 2. Naver API News 데이터 수집 및 Chart 생성*
 
 > Naver API를 이용해 수집한 News 데이터로 Chart 생성
 
@@ -34,7 +34,7 @@
 
 <br>
 
-### *Part 3. Facebook API*
+### 📝*Part 3. Facebook API*
 
 > Facebook API를 이용해 정보 Crawling
 
@@ -46,7 +46,7 @@
 
 <br>
 
-### *Part 4. 2021-07-23 Keyword Count 최종 코드*
+### 📝*Part 4. 2021-07-23 Keyword Count 최종 코드*
 
 > Naver API를 이용해 수집한 News 데이터에서 keyword의 노출 빈도 count
 
@@ -58,7 +58,7 @@
 
 <br>
 
-### *Part 5. 회의록*
+### 📝*Part 5. 회의록*
 
 > 2021.07.19 ~ 2021.07.23 동안 진행된 모듈 프로젝트 1의 회의록
 
