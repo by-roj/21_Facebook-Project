@@ -9,7 +9,7 @@ def makePrint(p, data):
     absolute = int(round(p/100.*np.sum(data)))
     return "{:.2f}%\n({:d})".format(p, absolute)
 
-with open("C:/Users/user/Data/news_data.json", "r", encoding='utf-8') as filedata:
+with open("./data/news_data.json", "r", encoding='utf-8') as filedata:
     newsdata = json.loads(filedata.read())
 
 # pubDate 기준으로 정렬

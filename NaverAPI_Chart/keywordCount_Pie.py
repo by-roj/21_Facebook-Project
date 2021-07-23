@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 
-with open("C:\ModuleProject1\FacebookProject\corona_naver_news.json", "r", encoding='utf-8') as filedata:
+with open("./data/news_data.json", "r", encoding='utf-8') as filedata:
     newsdata = json.loads(filedata.read())
 
 # pubDate 기준으로 정렬

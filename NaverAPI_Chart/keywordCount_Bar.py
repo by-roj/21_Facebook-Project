@@ -7,7 +7,7 @@ fontLocation = r"C:/Windows/Fonts/malgun.ttf"
 fontName = font_manager.FontProperties(fname=fontLocation).get_name()
 plt.rc('font', family=fontName)
 
-with open("C:/LAB/DataLab/Module01/news_data.json", "r", encoding='utf-8') as filedata:
+with open("./data/news_data.json", "r", encoding='utf-8') as filedata:
     newsdata = json.loads(filedata.read())
 
 # pubDate 기준으로 정렬
