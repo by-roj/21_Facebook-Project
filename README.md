@@ -18,6 +18,7 @@
 
 <br>
 ##  
+
 <br>
 
 ### *Part 2. Naver API News 데이터 수집 및 Chart 생성*
@@ -32,6 +33,7 @@
 
 <br>
 ##  
+
 <br>
 
 ### *Part 3. Facebook API*
@@ -44,6 +46,7 @@
 
 <br>
 ##  
+
 <br>
 
 ### *Part 4. 2021-07-23 Keyword Count 최종 코드*
@@ -56,6 +59,7 @@
 
 <br>
 ##  
+
 <br>
 
 ### *Part 5. 회의록*
