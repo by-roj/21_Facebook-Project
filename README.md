@@ -18,8 +18,6 @@
 
 ##       
 
-<br>
-
 ### 📝*Part 2. Naver API News 데이터 수집 및 Chart 생성*
 
 > Naver API를 이용해 수집한 News 데이터로 Chart 생성
@@ -32,8 +30,6 @@
 
 ##       
 
-<br>
-
 ### 📝*Part 3. Facebook API*
 
 > Facebook API를 이용해 정보 Crawling
@@ -44,8 +40,6 @@
 
 ##       
 
-<br>
-
 ### 📝*Part 4. 2021-07-23 Keyword Count 최종 코드*
 
 > Naver API를 이용해 수집한 News 데이터에서 keyword의 노출 빈도 count
@@ -54,10 +48,7 @@
 
 - 현재 날짜 기준 1일, 1주, 1달, 1년 내에 keyword의 노출 빈도 count
 
-##       
-
-<br>
-
+##      
 ### 📝*Part 5. 회의록*
 
 > 2021.07.19 ~ 2021.07.23 동안 진행된 모듈 프로젝트 1의 회의록
