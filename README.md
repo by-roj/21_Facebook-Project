@@ -19,7 +19,7 @@
 ##       
 
 <br>
-### *Part 2. Naver API News 데이터 수집 및 Chart 생성*  
+### *Part 2. Naver API News 데이터 수집 및 Chart 생성*
 
 > Naver API를 이용해 수집한 News 데이터로 Chart 생성
 
