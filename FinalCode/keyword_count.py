@@ -9,7 +9,7 @@ import json
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-with open("C:/LAB/DataLab/Module01/FinalCode/naverdata/naver_news_data.json", "r", encoding='utf-8') as filedata:
+with open("./naverdata/naver_news_data.json", "r", encoding='utf-8') as filedata:
     newsdata = json.loads(filedata.read())
 
 # pubDate 기준으로 정렬
