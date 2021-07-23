@@ -92,33 +92,3 @@ if __name__ == '__main__':
     # naverdata.py 일 경우 __name__ = naverdata (파일 이름)을 저장함
     # 이 파일 안에서 함수를 실행 - __main__ 값이 이미 정해져 있음 예약
     # 첫 실행하는 함수를 지정
-
-
-
-
-
-
-
-
-#파이썬 검색
-# encText = urllib.parse.quote("검색할 단어")
-# url = "https://openapi.naver.com/v1/search/blog?query=" + encText # json 결과
-
-#호출
-# curl "https://openapi.naver.com/v1/search/news.xml?query=%EC%A3%BC%EC%8B%9D&display=10&start=1&sort=sim" \
-#     -H "X-Naver-Client-Id: {애플리케이션 등록 시 발급받은 client id 값}" \
-#     -H "X-Naver-Client-Secret: {애플리케이션 등록 시 발급받은 client secret 값}" -v
-
-
-# 요청
-#     > GET /v1/search/news.xml?query=%EC%A3%BC%EC%8B%9D&display=10&start=1&sort=sim HTTP/1.1
-# > Host: openapi.naver.com
-# > User-Agent: curl/7.49.1
-# > Accept: */*
-# > X-Naver-Client-Id: {애플리케이션 등록 시 발급받은 client id 값}
-# > X-Naver-Client-Secret: {애플리케이션 등록 시 발급받은 client secret 값}
-# \
-
-# 블로그 파이썬
-# response = urllib.request.urlopen(request)
-# rescode = response.getcode()
