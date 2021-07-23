@@ -2,14 +2,14 @@ import json
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-with open("C:/Users/user/LYH/ModuleProject1/FacebookProject/FinalCode/naverdata/naver_news_data.json", "r", encoding='utf-8') as filedata:
+with open("C:/LAB/DataLab/Module01/FinalCode/naverdata/naver_news_data.json", "r", encoding='utf-8') as filedata:
     newsdata = json.loads(filedata.read())
 
 # pubDate 기준으로 정렬
 sorted_arr = sorted(newsdata, key=lambda x: (x['pubDate']))
 # print(sorted_arr)
 
-keyword = "폭염"
+keyword = "MZ세대"
 now = datetime.now()    # 현재
 
 # 날짜 구간 조정

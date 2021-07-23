@@ -1,10 +1,13 @@
 import urllib.request
 import datetime
 import json
-#from config import * # 그대로 두시면 됩니다.:실무에서는 최종 버전을 만들기 전까지는
-# 개발과정에서 혹시 나중에 사용될지 모르니 주석으로 우선 처리 - 최종에 삭제한다
+'''
+from config import * # 그대로 두시면 됩니다.:실무에서는 최종 버전을 만들기 전까지는
+개발과정에서 혹시 나중에 사용될지 모르니 주석으로 우선 처리 - 최종에 삭제한다
+'''
 
 
+#네이버 API 계정
 client_id = "6rf2UywTVOozC0YlXdkK"
 client_secret = "xXIl0TtHdp"
 
@@ -34,7 +37,8 @@ def GetNaverSearchResult(searchNode, searchText, pageStart, display): # 분류 �
                                                         pageStart , # 검색 시작점
                                                         display) #검색 결과 레코드 수
     url = baseurl + nodedata + parameters # 모든 것 합쳐서 URL 경로명 완성
-    
+
+
     # 비정형(반정형) 가지고 온 초기 데이터(또는 정형일 수 있다) 
     reqDataResult = get_request_url(url) #가져오기 위해서 URL 완성 후 처리를 위한 함수 호출
     #reqDataResult : DataLake 저장
@@ -87,8 +91,11 @@ def main(): # 정적언어 처럼 시작함수를 지정할 수 있다.
 
 if __name__ == '__main__':
     main()
+    
 
+'''
     # __name__ : 내장변수 /  글로벌 변수 - 파이썬에서 정한(예약한) 이미 있는 변수
     # naverdata.py 일 경우 __name__ = naverdata (파일 이름)을 저장함
     # 이 파일 안에서 함수를 실행 - __main__ 값이 이미 정해져 있음 예약
     # 첫 실행하는 함수를 지정
+'''
