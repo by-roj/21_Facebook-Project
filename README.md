@@ -17,10 +17,10 @@
 - Pie Chart : by 이용하
 
 <br>
-##  
+
+##       
 
 <br>
-
 ### *Part 2. Naver API News 데이터 수집 및 Chart 생성*
 
 > Naver API를 이용해 수집한 News 데이터로 Chart 생성
@@ -32,7 +32,8 @@
 - keyword의 count를 이용해 다양한 Chart 생성
 
 <br>
-##  
+
+##       
 
 <br>
 
@@ -45,7 +46,8 @@
 - parameter 'me'에 대해 'id', 'name' field 값을 불러옴
 
 <br>
-##  
+
+##       
 
 <br>
 
@@ -58,7 +60,8 @@
 - 현재 날짜 기준 1일, 1주, 1달, 1년 내에 keyword의 노출 빈도 count
 
 <br>
-##  
+
+##       
 
 <br>
 
