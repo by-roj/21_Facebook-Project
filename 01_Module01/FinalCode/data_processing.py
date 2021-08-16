@@ -15,8 +15,8 @@ from config import * # 그대로 두시면 됩니다.:실무에서는 최종 버
 
 
 #네이버 API 계정
-client_id = "6rf2UywTVOozC0YlXdkK"
-client_secret = "xXIl0TtHdp"
+client_id = "" #ID
+client_secret = "" #Password
 
 
 # Data Crawling
