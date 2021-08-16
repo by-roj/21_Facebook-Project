@@ -31,7 +31,7 @@ def json_request(url = '',  encoding = 'utf-8',
 
 
 BASE_URL_FB_API = 'https://graph.facebook.com/v11.0'
-ACCESS_TOKEN = 'EAALcUD9y2iEBAGO2gepm5CNZCz6gWBxJNyDFe33eV5IZBHIdokZBF9XtnP9ymtSgTamiVFBp38jVy6WKTGwTZBIPrZBuVgDyM3v8TZAdXNv6Jyvy9rewCYKUziF4ZBdK3BFXk9mAfWdJFGIBZAyLB4Sr76yzssTNkcIrj83FuvdLz6JWBJUw0ejR9j2cZCuPvcRdrN95rpSDzXnX5p8G4MEWZA'
+ACCESS_TOKEN = '' #Access_Token
 
 
 # 여러 파라미터에 대하여, url을 생성
