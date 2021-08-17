@@ -1,4 +1,4 @@
-## 📜 FacebookProject - Module Project 1, 2
+## 📜 FacebookProject - Module Project 1
 - by 6조 디버깅 상용하(박준용, 윤상우, 이용하)
 
 <br>
