@@ -8,7 +8,7 @@
 
 > 다양한 자료형(Dictionary, List, Tuple)를 이용하여 다양한 Chart 생성해보기
 
-[GitHub Link](https://github.com/by-roj/21_Facebook-Project/tree/main/Chart_Practice)
+[GitHub Link](https://github.com/by-roj/21_Facebook-Project/tree/main/06-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/01_Module01/Chart_Practice)
 
 - Bar Chart : by 박준용
 
@@ -22,7 +22,7 @@
 
 > Naver API를 이용해 수집한 News 데이터로 Chart 생성
 
-[Github Link](https://github.com/by-roj/21_Facebook-Project/tree/main/NaverAPI_Chart)
+[Github Link](https://github.com/by-roj/21_Facebook-Project/tree/main/06-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/01_Module01/NaverAPI_Chart)
 
 - News 데이터의 title, description에서 keyword의 노출 빈도 count
 
@@ -34,7 +34,7 @@
 
 > Facebook API를 이용해 정보 Crawling
 
-[Github Link](https://github.com/by-roj/21_Facebook-Project/tree/main/Facebook)
+[Github Link](https://github.com/by-roj/21_Facebook-Project/tree/main/06-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/01_Module01/Facebook)
 
 - parameter 'me'에 대해 'id', 'name' field 값을 불러옴
 
@@ -44,7 +44,7 @@
 
 > Naver API를 이용해 수집한 News 데이터에서 keyword의 노출 빈도 count
 
-[Github Link](https://github.com/by-roj/21_Facebook-Project/tree/main/FinalCode)
+[Github Link](https://github.com/by-roj/21_Facebook-Project/tree/main/06-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C/01_Module01/FinalCode)
 
 - 현재 날짜 기준 1일, 1주, 1달, 1년 내에 keyword의 노출 빈도 count
 
@@ -53,7 +53,7 @@
 
 > 2021.07.19 ~ 2021.07.23 동안 진행된 모듈 프로젝트 1의 회의록
 
-[Github Link](https://github.com/by-roj/21_Facebook-Projectt/tree/main/%ED%9A%8C%EC%9D%98%EB%A1%9D)
+[Github Link](https://github.com/by-roj/21_Facebook-Project/tree/main/00-%ED%9A%8C%EC%9D%98%EB%A1%9D)
 
 <br>
 <br>
