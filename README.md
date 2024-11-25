@@ -1,4 +1,4 @@
-## FacebookProject - Module Project 1
+## Facebook Project - Module Project 1
 - by TEAM 6
 
 <br>
