@@ -4,7 +4,7 @@
 <br>
 <br>
 
-### *◻ Part 1. Chart Practice*
+### ◻ *Part 1. Chart Practice*
 
 > Creating differenct chars using different data types (Dictionary, List, Tuple)
 
@@ -18,7 +18,7 @@
 
 ##       
 
-### *◻ Part 2. Naver API News data collection and Chart creation*
+### ◻ *Part 2. Naver API News data collection and Chart creation*
 
 > Creating chart with news data collected using Naver API
 
@@ -30,7 +30,7 @@
 
 ##       
 
-### *◻ Part 3. Facebook API*
+### ◻ *Part 3. Facebook API*
 
 > Crawling data using Facebook API
 
@@ -40,7 +40,7 @@
 
 ##       
 
-### *◻ Part 4. 2021-07-23 Keyword Count - Final Code*
+### ◻ *Part 4. 2021-07-23 Keyword Count - Final Code*
 
 > Counting frequency of exposure of keywords in news new data collected using Naver API
 
@@ -49,7 +49,7 @@
 - Within 1 day, 1 week, and 1 year as of the current date
 
 ##      
-### *◻ Part 5. Meeting Minutes*
+### ◻ *Part 5. Meeting Minutes*
 
 > 2021.07.19 ~ 2021.07.23
 
